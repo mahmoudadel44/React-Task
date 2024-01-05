@@ -1,0 +1,25 @@
+.spinnerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.allProducts {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.titleWithPrice {
+  justify-content: space-between;
+}
+h3,
+h4 {
+  margin: 5px;
+}

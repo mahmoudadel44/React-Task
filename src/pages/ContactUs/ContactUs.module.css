@@ -1,0 +1,68 @@
+.header {
+  font-size: 24px;
+  margin: 40px 0 0px;
+}
+
+form {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 8px;
+  font-size: 16px;
+  display: block;
+  text-align: left;
+}
+.messageLabel {
+  margin-bottom: 8px;
+}
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.input {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 450px;
+  height: 26px;
+}
+.textArea {
+  height: 200px;
+  resize: none;
+}
+.inputError {
+  border-color: #ff0000;
+}
+
+.errorMessage {
+  color: #ff0000;
+  font-size: 12px;
+}
+
+.submitButton {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  width: 100px;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,20 @@
+.spinnerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  margin-bottom: 50px;
+}
+.allCategories {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 33%;
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
